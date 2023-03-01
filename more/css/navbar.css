@@ -1,0 +1,44 @@
+/* NAVBAR */
+.navbar {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 3;
+}
+
+.navbar__links {
+    display: flex;
+    column-gap: 20px;
+}
+
+.navbar__link {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    transition: .3s all;
+}
+
+.navbar__link:hover {
+    color: #2991D6;
+}
+
+.navbar__contacts {
+    text-align: right;
+}
+
+.navbar__mail-address {
+    font-size: 14px;
+    color: #a8a8a8;
+}
+/* /NAVBAR */
+
+/* NAVBAR MEDIA QUERIES */
+@media only screen and (max-width: 1000px) {
+    .navbar__links {
+        display: none;
+    }
+}
+/* /NAVBAR MEDIA QUERIES */
